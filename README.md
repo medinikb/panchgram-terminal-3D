@@ -1,5 +1,7 @@
 # Panchgram · Terminal Atlas
 
+Live link: https://medinikb.github.io/panchgram-terminal-3D/
+
 A drawing-based interactive 3D explorer for the **Panchgram POL terminal, Cachar, Assam**. Built to make layout discussions, project presentations and facility reviews easier to understand.
 
 ![Panchgram Terminal Atlas preview](assets/preview.png)
