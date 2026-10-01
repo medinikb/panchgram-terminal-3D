@@ -1,0 +1,1684 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "name": "Panchgram POL Terminal",
+    "location": "Panchgram, Cachar, Assam",
+    "client": "Numaligarh Refinery Limited",
+    "drawingId": "KE-8S04B-PI-PPL-0001",
+    "revision": "D2",
+    "revisionDate": "2026-08-24",
+    "sourceFile": "Panchgram_Overall Plot Plan.pdf",
+    "sourceType": "raster PDF",
+    "units": "metres",
+    "modelPurpose": "Conceptual visualisation and layout communication"
+  },
+  "coordinateSystem": {
+    "imageWidthPx": 2000,
+    "imageHeightPx": 1064,
+    "originPx": [
+      1000,
+      560
+    ],
+    "metresPerPixel": 0.35294117647058826,
+    "calibration": "Manual trace calibrated to a 24 m HSD tank, approximately 68 pixels across in the site crop. Not survey coordinates.",
+    "axis": "X follows drawing-right; Z follows drawing-down; Y is elevation. True north is not the image vertical."
+  },
+  "categories": [
+    {
+      "id": "storage",
+      "name": "Product storage",
+      "color": "#bd8c46"
+    },
+    {
+      "id": "logistics",
+      "name": "Rail & road logistics",
+      "color": "#6c8495"
+    },
+    {
+      "id": "utilities",
+      "name": "Water & utilities",
+      "color": "#4e918f"
+    },
+    {
+      "id": "support",
+      "name": "Buildings & support",
+      "color": "#7c8392"
+    },
+    {
+      "id": "future",
+      "name": "Future development",
+      "color": "#8c9b64"
+    }
+  ],
+  "boundaryPx": [
+    [
+      60,
+      398
+    ],
+    [
+      1924,
+      72
+    ],
+    [
+      1920,
+      155
+    ],
+    [
+      1850,
+      300
+    ],
+    [
+      1790,
+      490
+    ],
+    [
+      1760,
+      590
+    ],
+    [
+      1775,
+      1000
+    ],
+    [
+      100,
+      1040
+    ]
+  ],
+  "roadsPx": [
+    [
+      [
+        140,
+        1012
+      ],
+      [
+        1745,
+        1012
+      ]
+    ],
+    [
+      [
+        121,
+        1000
+      ],
+      [
+        116,
+        482
+      ],
+      [
+        160,
+        429
+      ],
+      [
+        1810,
+        150
+      ],
+      [
+        1840,
+        191
+      ],
+      [
+        1840,
+        239
+      ],
+      [
+        1735,
+        281
+      ],
+      [
+        1540,
+        319
+      ],
+      [
+        1420,
+        337
+      ],
+      [
+        1359,
+        367
+      ]
+    ],
+    [
+      [
+        126,
+        524
+      ],
+      [
+        1020,
+        370
+      ],
+      [
+        1065,
+        414
+      ],
+      [
+        1355,
+        410
+      ],
+      [
+        1362,
+        989
+      ]
+    ],
+    [
+      [
+        160,
+        504
+      ],
+      [
+        1780,
+        251
+      ]
+    ],
+    [
+      [
+        649,
+        984
+      ],
+      [
+        649,
+        725
+      ],
+      [
+        713,
+        704
+      ],
+      [
+        1330,
+        704
+      ]
+    ],
+    [
+      [
+        708,
+        471
+      ],
+      [
+        708,
+        683
+      ]
+    ],
+    [
+      [
+        1068,
+        445
+      ],
+      [
+        1068,
+        998
+      ]
+    ],
+    [
+      [
+        1080,
+        708
+      ],
+      [
+        1740,
+        708
+      ]
+    ],
+    [
+      [
+        1375,
+        662
+      ],
+      [
+        1760,
+        662
+      ]
+    ],
+    [
+      [
+        1586,
+        326
+      ],
+      [
+        1586,
+        995
+      ]
+    ],
+    [
+      [
+        1747,
+        629
+      ],
+      [
+        1750,
+        1003
+      ]
+    ],
+    [
+      [
+        1390,
+        350
+      ],
+      [
+        1390,
+        643
+      ]
+    ]
+  ],
+  "railLinesPx": [
+    [
+      [
+        152,
+        480
+      ],
+      [
+        1775,
+        220
+      ],
+      [
+        1870,
+        170
+      ],
+      [
+        1930,
+        70
+      ]
+    ],
+    [
+      [
+        153,
+        442
+      ],
+      [
+        1780,
+        180
+      ],
+      [
+        1860,
+        147
+      ],
+      [
+        1930,
+        70
+      ]
+    ]
+  ],
+  "bunds": [
+    {
+      "positionPx": [
+        878,
+        615
+      ],
+      "widthM": 92,
+      "depthM": 38
+    },
+    {
+      "positionPx": [
+        854,
+        801
+      ],
+      "widthM": 120,
+      "depthM": 43
+    },
+    {
+      "positionPx": [
+        992,
+        934
+      ],
+      "widthM": 22,
+      "depthM": 22
+    }
+  ],
+  "greenBeltPx": [
+    [
+      [
+        118,
+        550
+      ],
+      [
+        300,
+        540
+      ],
+      [
+        300,
+        889
+      ],
+      [
+        118,
+        889
+      ]
+    ],
+    [
+      [
+        1505,
+        722
+      ],
+      [
+        1568,
+        722
+      ],
+      [
+        1568,
+        983
+      ],
+      [
+        1505,
+        983
+      ]
+    ]
+  ],
+  "pipeRoutesPx": [
+    [
+      [
+        760,
+        529
+      ],
+      [
+        1020,
+        529
+      ]
+    ],
+    [
+      [
+        746,
+        681
+      ],
+      [
+        1040,
+        681
+      ],
+      [
+        1040,
+        620
+      ],
+      [
+        1100,
+        620
+      ],
+      [
+        1100,
+        401
+      ],
+      [
+        1350,
+        401
+      ]
+    ],
+    [
+      [
+        722,
+        895
+      ],
+      [
+        1030,
+        895
+      ]
+    ],
+    [
+      [
+        1350,
+        620
+      ],
+      [
+        1470,
+        620
+      ],
+      [
+        1470,
+        478
+      ]
+    ]
+  ],
+  "assets": [
+    {
+      "id": "MS-01",
+      "name": "Motor spirit · tank 1",
+      "category": "storage",
+      "kind": "tank",
+      "planPositionPx": [
+        803,
+        615
+      ],
+      "widthM": 20,
+      "depthM": 20,
+      "heightM": 12.6,
+      "sourceNumber": null,
+      "description": "Product storage. Diameter, shell height and stored capacity are transcribed from the source tank schedule.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 20,
+      "capacityM3": 3000,
+      "roofType": "IFRVT",
+      "sourceTag": "T-01B",
+      "tankDetails": {
+        "foundationHeightM": 0.55,
+        "roofRiseM": 0.45,
+        "referenceBasis": "Original tank-farm geometry informed by TankStorage-1920x840.jpg: pale shells, subtle seams, fixed roof detailing, external stairs, roof rails and warm service lights. Photo is reference only, never embedded or used as a texture. Diameter, shell height, capacity and roof type follow the source schedule; foundations, roof slopes, fittings, stairs, paint and lighting are illustrative."
+      }
+    },
+    {
+      "id": "MS-02",
+      "name": "Motor spirit · tank 2",
+      "category": "storage",
+      "kind": "tank",
+      "planPositionPx": [
+        896,
+        615
+      ],
+      "widthM": 20,
+      "depthM": 20,
+      "heightM": 12.6,
+      "sourceNumber": null,
+      "description": "Product storage. Diameter, shell height and stored capacity are transcribed from the source tank schedule.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 20,
+      "capacityM3": 3000,
+      "roofType": "IFRVT",
+      "sourceTag": "T-01A",
+      "tankDetails": {
+        "foundationHeightM": 0.55,
+        "roofRiseM": 0.45,
+        "referenceBasis": "Original tank-farm geometry informed by TankStorage-1920x840.jpg: pale shells, subtle seams, fixed roof detailing, external stairs, roof rails and warm service lights. Photo is reference only, never embedded or used as a texture. Diameter, shell height, capacity and roof type follow the source schedule; foundations, roof slopes, fittings, stairs, paint and lighting are illustrative."
+      }
+    },
+    {
+      "id": "ETH-01",
+      "name": "Ethanol tank",
+      "category": "storage",
+      "kind": "tank",
+      "planPositionPx": [
+        974,
+        616
+      ],
+      "widthM": 10,
+      "depthM": 10,
+      "heightM": 9.7,
+      "sourceNumber": null,
+      "description": "Product storage. Diameter, shell height and stored capacity are transcribed from the source tank schedule.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 10,
+      "capacityM3": 600,
+      "roofType": "IFRVT",
+      "sourceTag": "T-03",
+      "tankDetails": {
+        "foundationHeightM": 0.55,
+        "roofRiseM": 0.45,
+        "referenceBasis": "Original tank-farm geometry informed by TankStorage-1920x840.jpg: pale shells, subtle seams, fixed roof detailing, external stairs, roof rails and warm service lights. Photo is reference only, never embedded or used as a texture. Diameter, shell height, capacity and roof type follow the source schedule; foundations, roof slopes, fittings, stairs, paint and lighting are illustrative."
+      }
+    },
+    {
+      "id": "HSD-01",
+      "name": "Diesel · tank 1",
+      "category": "storage",
+      "kind": "tank",
+      "planPositionPx": [
+        750,
+        801
+      ],
+      "widthM": 24,
+      "depthM": 24,
+      "heightM": 12.5,
+      "sourceNumber": null,
+      "description": "Product storage. Diameter, shell height and stored capacity are transcribed from the source tank schedule.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 24,
+      "capacityM3": 5000,
+      "roofType": "CRVT",
+      "sourceTag": "T-02C",
+      "tankDetails": {
+        "foundationHeightM": 0.55,
+        "roofRiseM": 0.85,
+        "referenceBasis": "Original tank-farm geometry informed by TankStorage-1920x840.jpg: pale shells, subtle seams, fixed roof detailing, external stairs, roof rails and warm service lights. Photo is reference only, never embedded or used as a texture. Diameter, shell height, capacity and roof type follow the source schedule; foundations, roof slopes, fittings, stairs, paint and lighting are illustrative."
+      }
+    },
+    {
+      "id": "HSD-02",
+      "name": "Diesel · tank 2",
+      "category": "storage",
+      "kind": "tank",
+      "planPositionPx": [
+        854,
+        801
+      ],
+      "widthM": 24,
+      "depthM": 24,
+      "heightM": 12.5,
+      "sourceNumber": null,
+      "description": "Product storage. Diameter, shell height and stored capacity are transcribed from the source tank schedule.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 24,
+      "capacityM3": 5000,
+      "roofType": "CRVT",
+      "sourceTag": "T-02B",
+      "tankDetails": {
+        "foundationHeightM": 0.55,
+        "roofRiseM": 0.85,
+        "referenceBasis": "Original tank-farm geometry informed by TankStorage-1920x840.jpg: pale shells, subtle seams, fixed roof detailing, external stairs, roof rails and warm service lights. Photo is reference only, never embedded or used as a texture. Diameter, shell height, capacity and roof type follow the source schedule; foundations, roof slopes, fittings, stairs, paint and lighting are illustrative."
+      }
+    },
+    {
+      "id": "HSD-03",
+      "name": "Diesel · tank 3",
+      "category": "storage",
+      "kind": "tank",
+      "planPositionPx": [
+        965,
+        801
+      ],
+      "widthM": 24,
+      "depthM": 24,
+      "heightM": 12.5,
+      "sourceNumber": null,
+      "description": "Product storage. Diameter, shell height and stored capacity are transcribed from the source tank schedule.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 24,
+      "capacityM3": 5000,
+      "roofType": "CRVT",
+      "sourceTag": "T-02A",
+      "tankDetails": {
+        "foundationHeightM": 0.55,
+        "roofRiseM": 0.85,
+        "referenceBasis": "Original tank-farm geometry informed by TankStorage-1920x840.jpg: pale shells, subtle seams, fixed roof detailing, external stairs, roof rails and warm service lights. Photo is reference only, never embedded or used as a texture. Diameter, shell height, capacity and roof type follow the source schedule; foundations, roof slopes, fittings, stairs, paint and lighting are illustrative."
+      }
+    },
+    {
+      "id": "BIO-01",
+      "name": "Biodiesel tank",
+      "category": "storage",
+      "kind": "tank",
+      "planPositionPx": [
+        992,
+        934
+      ],
+      "widthM": 9,
+      "depthM": 9,
+      "heightM": 9.7,
+      "sourceNumber": null,
+      "description": "Product storage. Diameter, shell height and stored capacity are transcribed from the source tank schedule.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 9,
+      "capacityM3": 600,
+      "roofType": "CRVT",
+      "sourceTag": "T-04",
+      "tankDetails": {
+        "foundationHeightM": 0.55,
+        "roofRiseM": 0.85,
+        "referenceBasis": "Original tank-farm geometry informed by TankStorage-1920x840.jpg: pale shells, subtle seams, fixed roof detailing, external stairs, roof rails and warm service lights. Photo is reference only, never embedded or used as a texture. Diameter, shell height, capacity and roof type follow the source schedule; foundations, roof slopes, fittings, stairs, paint and lighting are illustrative."
+      }
+    },
+    {
+      "id": "FW-01",
+      "name": "Fire-water tank 1",
+      "category": "utilities",
+      "kind": "tank",
+      "planPositionPx": [
+        1632,
+        960
+      ],
+      "widthM": 18,
+      "depthM": 18,
+      "heightM": 16,
+      "sourceNumber": 6,
+      "description": "Dedicated fire-water storage. The schedule states 3,650 m³ per tank; usable water level is not inferred.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 18,
+      "capacityM3": 3650,
+      "roofType": "CRVT",
+      "tankDetails": {
+        "foundationHeightM": 0.55,
+        "roofRiseM": 0.85,
+        "referenceBasis": "Original tank-farm geometry informed by TankStorage-1920x840.jpg: pale shells, subtle seams, fixed roof detailing, external stairs, roof rails and warm service lights. Photo is reference only, never embedded or used as a texture. Diameter, shell height, capacity and roof type follow the source schedule; foundations, roof slopes, fittings, stairs, paint and lighting are illustrative."
+      }
+    },
+    {
+      "id": "FW-02",
+      "name": "Fire-water tank 2",
+      "category": "utilities",
+      "kind": "tank",
+      "planPositionPx": [
+        1729,
+        960
+      ],
+      "widthM": 18,
+      "depthM": 18,
+      "heightM": 16,
+      "sourceNumber": 6,
+      "description": "Dedicated fire-water storage. The schedule states 3,650 m³ per tank; usable water level is not inferred.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 18,
+      "capacityM3": 3650,
+      "roofType": "CRVT",
+      "tankDetails": {
+        "foundationHeightM": 0.55,
+        "roofRiseM": 0.85,
+        "referenceBasis": "Original tank-farm geometry informed by TankStorage-1920x840.jpg: pale shells, subtle seams, fixed roof detailing, external stairs, roof rails and warm service lights. Photo is reference only, never embedded or used as a texture. Diameter, shell height, capacity and roof type follow the source schedule; foundations, roof slopes, fittings, stairs, paint and lighting are illustrative."
+      }
+    },
+    {
+      "id": "SEC-01",
+      "name": "Security & visitor room",
+      "category": "support",
+      "kind": "building",
+      "planPositionPx": [
+        1740,
+        748
+      ],
+      "widthM": 10,
+      "depthM": 6,
+      "heightM": 3.5,
+      "sourceNumber": 1,
+      "description": "Visitor arrival and security control at the plant entrance.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "GUARD-01",
+      "name": "Dispatch guard room · north",
+      "category": "support",
+      "kind": "building",
+      "planPositionPx": [
+        1608,
+        415
+      ],
+      "widthM": 2,
+      "depthM": 2,
+      "heightM": 3,
+      "sourceNumber": 2,
+      "description": "Dispatch control near the truck loading route.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "GUARD-02",
+      "name": "Dispatch guard room · south",
+      "category": "support",
+      "kind": "building",
+      "planPositionPx": [
+        1391,
+        715
+      ],
+      "widthM": 2,
+      "depthM": 2,
+      "heightM": 3,
+      "sourceNumber": 2,
+      "description": "Second guard room near the administration route.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "REST-01",
+      "name": "Truck crew rest room",
+      "category": "support",
+      "kind": "building",
+      "planPositionPx": [
+        1734,
+        808
+      ],
+      "widthM": 16.8,
+      "depthM": 6,
+      "heightM": 3.5,
+      "sourceNumber": 3,
+      "description": "Rest facilities for tank-truck drivers and crew.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "ADMIN-01",
+      "name": "Existing administration",
+      "category": "support",
+      "kind": "building",
+      "planPositionPx": [
+        1472,
+        795
+      ],
+      "widthM": 21,
+      "depthM": 70,
+      "heightM": 5.5,
+      "sourceNumber": 4,
+      "description": "Existing administration block; roof, windows and building height are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "existing"
+    },
+    {
+      "id": "FIRE-01",
+      "name": "Foam & fire equipment",
+      "category": "utilities",
+      "kind": "building",
+      "planPositionPx": [
+        1410,
+        933
+      ],
+      "widthM": 10,
+      "depthM": 12,
+      "heightM": 4,
+      "sourceNumber": 5,
+      "description": "Storage for firefighting equipment and foam.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "FWPH-01",
+      "name": "Fire-water pump house",
+      "category": "utilities",
+      "kind": "pumpHouse",
+      "planPositionPx": [
+        1645,
+        903
+      ],
+      "widthM": 24,
+      "depthM": 8,
+      "heightM": 5,
+      "sourceNumber": 6,
+      "description": "Open steel shed with pumps on plinths, curved headers, valves and a pipe crossover. Footprint follows the drawing; equipment counts and routing are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "pumpHouseDetails": {
+        "service": "fireWater",
+        "illustrativePumpCount": 4,
+        "referenceBasis": "Original geometry informed by Pump House.jpg, Pump House1.jpg and Pump House2.jpg: open steel framing, green upper cladding, roof trusses and curved pump pipework. Photos are reference only, never embedded or used as textures. Pump counts, types, heights and routing are illustrative, not a Panchgram equipment schedule."
+      }
+    },
+    {
+      "id": "DG-01",
+      "name": "Diesel generator area",
+      "category": "utilities",
+      "kind": "equipment",
+      "planPositionPx": [
+        1735,
+        862
+      ],
+      "widthM": 8,
+      "depthM": 19,
+      "heightM": 3,
+      "sourceNumber": 7,
+      "description": "Backup power provision; equipment models and heights are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "SAMPLE-01",
+      "name": "Sample retention room",
+      "category": "support",
+      "kind": "building",
+      "planPositionPx": [
+        1156,
+        674
+      ],
+      "widthM": 6,
+      "depthM": 5,
+      "heightM": 3.5,
+      "sourceNumber": 8,
+      "description": "Room for retaining product samples.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "OWS-01",
+      "name": "Oily-water separator",
+      "category": "utilities",
+      "kind": "basin",
+      "planPositionPx": [
+        185,
+        954
+      ],
+      "widthM": 33,
+      "depthM": 14.5,
+      "heightM": 2,
+      "sourceNumber": 9,
+      "description": "Oily-water treatment system. Basin internals and depth are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "VRU-01",
+      "name": "Vapour recovery unit",
+      "category": "utilities",
+      "kind": "equipment",
+      "planPositionPx": [
+        1300,
+        670
+      ],
+      "widthM": 8,
+      "depthM": 15,
+      "heightM": 4,
+      "sourceNumber": 10,
+      "description": "Vapour recovery provision. Vessels and connections represent the facility only.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "SEAL-01",
+      "name": "Truck sealing platform",
+      "category": "logistics",
+      "kind": "platform",
+      "planPositionPx": [
+        1750,
+        321
+      ],
+      "widthM": 5,
+      "depthM": 4,
+      "heightM": 1.2,
+      "sourceNumber": 11,
+      "description": "Sealing and dispatch platform.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "TLG-01",
+      "name": "Road loading gantry",
+      "category": "logistics",
+      "kind": "gantry",
+      "planPositionPx": [
+        1480,
+        520
+      ],
+      "widthM": 12,
+      "depthM": 52,
+      "heightM": 7.5,
+      "sourceNumber": 12,
+      "description": "Four active bays and four future bays in the scheduled 12 × 52 m footprint. Reference-informed steelwork, walkway, stairs and loading equipment are illustrative.",
+      "gantryDetails": {
+        "activeBays": 4,
+        "futureBays": 4,
+        "platformHeightM": 4.1,
+        "referenceBasis": "Original illustrative design informed by common structural and loading-equipment features in Fuel and Pol Truck Loading Gantry.png. The image itself is not embedded or copied; geometry, signage and colours are independently created."
+      },
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "TWPH-01",
+      "name": "Rail unloading pump house",
+      "category": "logistics",
+      "kind": "pumpHouse",
+      "planPositionPx": [
+        1230,
+        398
+      ],
+      "widthM": 40,
+      "depthM": 6,
+      "heightM": 4.5,
+      "sourceNumber": 13,
+      "description": "Open steel shed with pumps on plinths, curved headers, valves and a pipe crossover. Footprint follows the drawing; equipment counts and routing are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "pumpHouseDetails": {
+        "service": "railReceipt",
+        "illustrativePumpCount": 6,
+        "referenceBasis": "Original geometry informed by Pump House.jpg, Pump House1.jpg and Pump House2.jpg: open steel framing, green upper cladding, roof trusses and curved pump pipework. Photos are reference only, never embedded or used as textures. Pump counts, types, heights and routing are illustrative, not a Panchgram equipment schedule."
+      }
+    },
+    {
+      "id": "TLPH-01",
+      "name": "Truck-loading pump house",
+      "category": "logistics",
+      "kind": "pumpHouse",
+      "planPositionPx": [
+        1302,
+        531
+      ],
+      "widthM": 6,
+      "depthM": 45,
+      "heightM": 4.5,
+      "sourceNumber": 14,
+      "description": "Open steel shed with pumps on plinths, curved headers, valves and a pipe crossover. Footprint follows the drawing; equipment counts and routing are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "pumpHouseDetails": {
+        "service": "truckDispatch",
+        "illustrativePumpCount": 7,
+        "referenceBasis": "Original geometry informed by Pump House.jpg, Pump House1.jpg and Pump House2.jpg: open steel framing, green upper cladding, roof trusses and curved pump pipework. Photos are reference only, never embedded or used as textures. Pump counts, types, heights and routing are illustrative, not a Panchgram equipment schedule."
+      }
+    },
+    {
+      "id": "MAINT-01",
+      "name": "Maintenance building",
+      "category": "support",
+      "kind": "building",
+      "planPositionPx": [
+        1287,
+        786
+      ],
+      "widthM": 20,
+      "depthM": 8,
+      "heightM": 4.5,
+      "sourceNumber": 17,
+      "description": "Maintenance workshop and service support.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "RAW-01",
+      "name": "Raw-water reservoir 1",
+      "category": "utilities",
+      "kind": "basin",
+      "planPositionPx": [
+        1287,
+        977
+      ],
+      "widthM": 3,
+      "depthM": 2,
+      "heightM": 1.5,
+      "sourceNumber": 18,
+      "description": "First scheduled raw-water reservoir; illustrative depth.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "RAW-02",
+      "name": "Raw-water reservoir 2",
+      "category": "utilities",
+      "kind": "basin",
+      "planPositionPx": [
+        1318,
+        977
+      ],
+      "widthM": 3,
+      "depthM": 2,
+      "heightM": 1.5,
+      "sourceNumber": 18,
+      "description": "Second scheduled raw-water reservoir; illustrative depth.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "FILTER-01",
+      "name": "Water filtration unit",
+      "category": "utilities",
+      "kind": "equipment",
+      "planPositionPx": [
+        1280,
+        895
+      ],
+      "widthM": 30,
+      "depthM": 25,
+      "heightM": 3.5,
+      "sourceNumber": 19,
+      "description": "Water-treatment footprint from the schedule; equipment shapes are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "STATIC-01",
+      "name": "Static water tank",
+      "category": "utilities",
+      "kind": "basin",
+      "planPositionPx": [
+        1740,
+        721
+      ],
+      "widthM": 4,
+      "depthM": 6,
+      "heightM": 2.5,
+      "sourceNumber": 20,
+      "description": "Scheduled static water tank: 4 × 6 × 2.5 m. Stored capacity is listed as 50 kL.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "capacityM3": 50
+    },
+    {
+      "id": "WASH-01",
+      "name": "Common washroom",
+      "category": "support",
+      "kind": "building",
+      "planPositionPx": [
+        1731,
+        771
+      ],
+      "widthM": 5,
+      "depthM": 5,
+      "heightM": 3,
+      "sourceNumber": 21,
+      "description": "Common sanitation facilities.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "CAR-01",
+      "name": "Car & cycle shed",
+      "category": "support",
+      "kind": "shed",
+      "planPositionPx": [
+        1665,
+        661
+      ],
+      "widthM": 24,
+      "depthM": 5,
+      "heightM": 3.2,
+      "sourceNumber": 22,
+      "description": "Sheltered parking for cars and cycles.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "TXR-01",
+      "name": "Rail TXR room",
+      "category": "logistics",
+      "kind": "building",
+      "planPositionPx": [
+        1810,
+        285
+      ],
+      "widthM": 10,
+      "depthM": 5,
+      "heightM": 3.5,
+      "sourceNumber": 23,
+      "description": "Rail inspection room; the source attributes this facility to RITES. Position adjusted in the viewer to keep the room clear of the railway and service road. Its scheduled 10 × 5 m footprint is retained; the new placement is conceptual.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "user-requested correction to manual trace; conceptual viewer placement",
+      "status": "proposed",
+      "positionRevision": {
+        "originalPlanPositionPx": [
+          1785,
+          218
+        ],
+        "reason": "User requested moving the room clear of the railway; new position also avoids the service road.",
+        "date": "2026-10-01",
+        "basis": "conceptual viewer adjustment, not surveyed coordinates"
+      }
+    },
+    {
+      "id": "RAIL-01",
+      "name": "Rail unloading · fall-arrester supports",
+      "category": "logistics",
+      "kind": "railShed",
+      "planPositionPx": [
+        641,
+        392
+      ],
+      "widthM": 350,
+      "depthM": 10,
+      "heightM": 6.85,
+      "sourceNumber": 25,
+      "description": "54 inverted-L supports in two assumed rows of 27, outside both tracks with arms inward. Detail: 3.26 m arm, 1.50 m brace, 500 mm base. Shed roof/trusses removed. Held shed: 350 × 10 m; note: 380 × 15 m. 25 shortened wagons per track fit the 350 m area with 10 m end margins. Setting-out and equipment illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "user-supplied fall-arrester section; measured above column base",
+      "positionSource": "manual PDF trace",
+      "status": "reference concept / see notes",
+      "rotationDeg": 10,
+      "railDetails": {
+        "wagonCount": 25,
+        "wagonPitchM": 13.2,
+        "wagonLengthM": 10.45,
+        "platformHeightM": 0.85,
+        "trackOffsetM": 1.6,
+        "referenceBasis": "Rail 5.png, Rail photo.png, Rail_2.png, Rail 3.png and Rail 4.png: visual reference only; original unbranded geometry. Wagon dimensions/count, platform, equipment and local covered-track alignment are illustrative.",
+        "fallArresters": {
+          "rowCount": 2,
+          "supportsPerRow": 27,
+          "spacingM": 12.42,
+          "heightM": 6.85,
+          "armLengthM": 3.26,
+          "braceReachM": 1.5,
+          "basePlateM": 0.5,
+          "columnSection": "ISMC 250 BOX",
+          "armSection": "ISMC 200 BOX",
+          "braceSection": "ISMC 150",
+          "referenceBasis": "User-supplied typical fall-arrester plan and section: 6850 mm height, 3260 mm arm, 1500 mm brace reach, 500 × 500 mm base plate, typical at 54 places. User requested 12420 mm spacing; interpreted centre-to-centre along the rail track. Two rows of 27 are a layout assumption.",
+          "layoutBasis": "two rows inferred from 54 places; owner-requested columns outside the pair of rail tracks, arms inward towards each wagon track",
+          "baseElevationSource": "illustrative local grade",
+          "memberWidthSource": "illustrative boxed sections; nominal depths follow labels"
+        },
+        "wagonTrackCount": 2,
+        "wagonEndMarginM": 10,
+        "unloadingStationCount": 12,
+        "unloadingStationPitchM": 25,
+        "wagonCountSource": "user request: 25 wagons on each of the two tracks",
+        "wagonLayoutBasis": "Owner-requested shortening to fit both 25-wagon rows within the scheduled 350 m rail-area length: 10.45 m illustrative shells, 13.20 m pitch, 2.75 m end-coupler allowance; 330 m per row with 10 m end margins. The separate 380 m hold note is retained, not substituted for the scheduled allocation."
+      },
+      "originalShedSchedule": {
+        "widthM": 350,
+        "depthM": 10,
+        "status": "hold / see notes",
+        "alternativeNoteWidthM": 380,
+        "alternativeNoteDepthM": 15,
+        "sourceNumber": 25
+      }
+    },
+    {
+      "id": "TLD-01",
+      "name": "TLD shed",
+      "category": "logistics",
+      "kind": "shed",
+      "planPositionPx": [
+        1493,
+        356
+      ],
+      "widthM": 12,
+      "depthM": 6,
+      "heightM": 4,
+      "sourceNumber": 26,
+      "description": "Scheduled TLD shed; operating details are not inferred.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "SCRAP-01",
+      "name": "Future scrap yard",
+      "category": "future",
+      "kind": "future",
+      "planPositionPx": [
+        245,
+        584
+      ],
+      "widthM": 20,
+      "depthM": 20,
+      "heightM": 0.2,
+      "sourceNumber": 28,
+      "description": "Future scrap-yard reservation shown in the source.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "future"
+    },
+    {
+      "id": "TREATED-01",
+      "name": "Treated-water storage",
+      "category": "utilities",
+      "kind": "basin",
+      "planPositionPx": [
+        263,
+        954
+      ],
+      "widthM": 15,
+      "depthM": 15,
+      "heightM": 2,
+      "sourceNumber": 29,
+      "description": "Treated-water storage footprint; depth is illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "BIOPIT-01",
+      "name": "Future bioremediation pit",
+      "category": "future",
+      "kind": "future",
+      "planPositionPx": [
+        264,
+        903
+      ],
+      "widthM": 10,
+      "depthM": 10,
+      "heightM": 0.2,
+      "sourceNumber": 30,
+      "description": "Future sludge-pit reservation; no excavation depth is inferred.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "future"
+    },
+    {
+      "id": "SUB-01",
+      "name": "Electrical substation",
+      "category": "utilities",
+      "kind": "building",
+      "planPositionPx": [
+        1635,
+        815
+      ],
+      "widthM": 19,
+      "depthM": 30,
+      "heightM": 5,
+      "sourceNumber": 32,
+      "description": "Substation with PMCC, the power and motor control centre.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "TRANS-01",
+      "name": "Transformer yard",
+      "category": "utilities",
+      "kind": "equipment",
+      "planPositionPx": [
+        1678,
+        768
+      ],
+      "widthM": 10,
+      "depthM": 5,
+      "heightM": 3,
+      "sourceNumber": 33,
+      "description": "Transformer-yard footprint; transformer arrangement is illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "PARK-01",
+      "name": "Existing car parking",
+      "category": "support",
+      "kind": "parking",
+      "planPositionPx": [
+        1540,
+        916
+      ],
+      "widthM": 32,
+      "depthM": 5.2,
+      "heightM": 0.1,
+      "sourceNumber": 35,
+      "description": "Existing car-parking footprint.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "existing"
+    },
+    {
+      "id": "INSPECT-01",
+      "name": "Inspection platform · hold",
+      "category": "logistics",
+      "kind": "platform",
+      "planPositionPx": [
+        1744,
+        902
+      ],
+      "widthM": 5,
+      "depthM": 4,
+      "heightM": 1.2,
+      "sourceNumber": 36,
+      "description": "The source marks this inspection platform as on construction hold.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "hold / see notes"
+    },
+    {
+      "id": "TRUCK-L",
+      "name": "Loaded truck parking",
+      "category": "logistics",
+      "kind": "parking",
+      "planPositionPx": [
+        1705,
+        352
+      ],
+      "widthM": 60,
+      "depthM": 35,
+      "heightM": 0.1,
+      "sourceNumber": null,
+      "description": "The drawing labels provision for 19 loaded trucks. This viewer shows illustrative vehicles, not a bay-count verification.",
+      "footprintSource": "manual PDF trace",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "TRUCK-E",
+      "name": "Empty truck parking",
+      "category": "logistics",
+      "kind": "parking",
+      "planPositionPx": [
+        1690,
+        512
+      ],
+      "widthM": 55,
+      "depthM": 65,
+      "heightM": 0.1,
+      "sourceNumber": null,
+      "description": "The drawing labels provision for 18 empty trucks. Vehicle shapes and parking footprint are illustrative.",
+      "footprintSource": "manual PDF trace",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "proposed"
+    },
+    {
+      "id": "FUTURE-N",
+      "name": "Future development · north",
+      "category": "future",
+      "kind": "future",
+      "planPositionPx": [
+        497,
+        576
+      ],
+      "widthM": 135,
+      "depthM": 70,
+      "heightM": 0.1,
+      "sourceNumber": null,
+      "description": "Reserved expansion area. No additional facilities or capacities have been assumed.",
+      "footprintSource": "manual PDF trace",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "future"
+    },
+    {
+      "id": "FUTURE-S",
+      "name": "Future development · south",
+      "category": "future",
+      "kind": "future",
+      "planPositionPx": [
+        473,
+        828
+      ],
+      "widthM": 120,
+      "depthM": 95,
+      "heightM": 0.1,
+      "sourceNumber": null,
+      "description": "Reserved expansion area south of the rail corridor.",
+      "footprintSource": "manual PDF trace",
+      "heightSource": "illustrative",
+      "positionSource": "manual PDF trace",
+      "status": "future"
+    },
+    {
+      "id": "UG-01",
+      "name": "MS underground vessel",
+      "category": "storage",
+      "kind": "underground",
+      "planPositionPx": [
+        1150,
+        457
+      ],
+      "widthM": 3.3,
+      "depthM": 7.5,
+      "heightM": 3.3,
+      "sourceNumber": 16,
+      "description": "50 m³ horizontal vessel, 3.3 m diameter × 7.5 m total length, shown below grade in an open inspection pit. Burial cover, pit dimensions, supports and fittings are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 3.3,
+      "lengthM": 7.5,
+      "capacityM3": 50,
+      "underground": true,
+      "vesselDetails": {
+        "headDepthM": 0.55,
+        "soilCoverM": 0.35,
+        "pitClearanceM": 0.65,
+        "wallThicknessM": 0.2,
+        "floorClearanceM": 0.55,
+        "manwayCount": 2,
+        "manwayHeightM": 1.1,
+        "referenceBasis": "Original geometry informed by UG Vessel.jpg: red-coated horizontal shell, rounded heads, raised manways and a concrete pit. Photo is reference only, never embedded or used as a texture. Scheduled diameter, total length and capacity are preserved; burial cover, pit, support, head profile, coating and fitting details are illustrative."
+      }
+    },
+    {
+      "id": "UG-02",
+      "name": "HSD underground vessel",
+      "category": "storage",
+      "kind": "underground",
+      "planPositionPx": [
+        1167,
+        457
+      ],
+      "widthM": 3.3,
+      "depthM": 7.5,
+      "heightM": 3.3,
+      "sourceNumber": 16,
+      "description": "50 m³ horizontal vessel, 3.3 m diameter × 7.5 m total length, shown below grade in an open inspection pit. Burial cover, pit dimensions, supports and fittings are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 3.3,
+      "lengthM": 7.5,
+      "capacityM3": 50,
+      "underground": true,
+      "vesselDetails": {
+        "headDepthM": 0.55,
+        "soilCoverM": 0.35,
+        "pitClearanceM": 0.65,
+        "wallThicknessM": 0.2,
+        "floorClearanceM": 0.55,
+        "manwayCount": 2,
+        "manwayHeightM": 1.1,
+        "referenceBasis": "Original geometry informed by UG Vessel.jpg: red-coated horizontal shell, rounded heads, raised manways and a concrete pit. Photo is reference only, never embedded or used as a texture. Scheduled diameter, total length and capacity are preserved; burial cover, pit, support, head profile, coating and fitting details are illustrative."
+      }
+    },
+    {
+      "id": "UG-03",
+      "name": "Ethanol underground vessel",
+      "category": "storage",
+      "kind": "underground",
+      "planPositionPx": [
+        1184,
+        457
+      ],
+      "widthM": 3.3,
+      "depthM": 7.5,
+      "heightM": 3.3,
+      "sourceNumber": 15,
+      "description": "50 m³ horizontal vessel, 3.3 m diameter × 7.5 m total length, shown below grade in an open inspection pit. Burial cover, pit dimensions, supports and fittings are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 3.3,
+      "lengthM": 7.5,
+      "capacityM3": 50,
+      "underground": true,
+      "vesselDetails": {
+        "headDepthM": 0.55,
+        "soilCoverM": 0.35,
+        "pitClearanceM": 0.65,
+        "wallThicknessM": 0.2,
+        "floorClearanceM": 0.55,
+        "manwayCount": 2,
+        "manwayHeightM": 1.1,
+        "referenceBasis": "Original geometry informed by UG Vessel.jpg: red-coated horizontal shell, rounded heads, raised manways and a concrete pit. Photo is reference only, never embedded or used as a texture. Scheduled diameter, total length and capacity are preserved; burial cover, pit, support, head profile, coating and fitting details are illustrative."
+      }
+    },
+    {
+      "id": "UG-04",
+      "name": "Biodiesel underground vessel",
+      "category": "storage",
+      "kind": "underground",
+      "planPositionPx": [
+        1201,
+        457
+      ],
+      "widthM": 3.3,
+      "depthM": 7.5,
+      "heightM": 3.3,
+      "sourceNumber": 15,
+      "description": "50 m³ horizontal vessel, 3.3 m diameter × 7.5 m total length, shown below grade in an open inspection pit. Burial cover, pit dimensions, supports and fittings are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 3.3,
+      "lengthM": 7.5,
+      "capacityM3": 50,
+      "underground": true,
+      "vesselDetails": {
+        "headDepthM": 0.55,
+        "soilCoverM": 0.35,
+        "pitClearanceM": 0.65,
+        "wallThicknessM": 0.2,
+        "floorClearanceM": 0.55,
+        "manwayCount": 2,
+        "manwayHeightM": 1.1,
+        "referenceBasis": "Original geometry informed by UG Vessel.jpg: red-coated horizontal shell, rounded heads, raised manways and a concrete pit. Photo is reference only, never embedded or used as a texture. Scheduled diameter, total length and capacity are preserved; burial cover, pit, support, head profile, coating and fitting details are illustrative."
+      }
+    },
+    {
+      "id": "UG-05",
+      "name": "Slop underground vessel",
+      "category": "storage",
+      "kind": "underground",
+      "planPositionPx": [
+        1218,
+        457
+      ],
+      "widthM": 3.3,
+      "depthM": 7.5,
+      "heightM": 3.3,
+      "sourceNumber": 15,
+      "description": "50 m³ horizontal vessel, 3.3 m diameter × 7.5 m total length, shown below grade in an open inspection pit. Burial cover, pit dimensions, supports and fittings are illustrative.",
+      "footprintSource": "drawing schedule",
+      "heightSource": "drawing tank schedule",
+      "positionSource": "manual PDF trace",
+      "status": "proposed",
+      "diameterM": 3.3,
+      "lengthM": 7.5,
+      "capacityM3": 50,
+      "underground": true,
+      "vesselDetails": {
+        "headDepthM": 0.55,
+        "soilCoverM": 0.35,
+        "pitClearanceM": 0.65,
+        "wallThicknessM": 0.2,
+        "floorClearanceM": 0.55,
+        "manwayCount": 2,
+        "manwayHeightM": 1.1,
+        "referenceBasis": "Original geometry informed by UG Vessel.jpg: red-coated horizontal shell, rounded heads, raised manways and a concrete pit. Photo is reference only, never embedded or used as a texture. Scheduled diameter, total length and capacity are preserved; burial cover, pit, support, head profile, coating and fitting details are illustrative."
+      }
+    }
+  ],
+  "tour": [
+    {
+      "title": "A connected terminal",
+      "view": "overview",
+      "assetId": null,
+      "copy": "Rail receipt, product storage and road dispatch form the main site workflow. Explore how the proposed facilities sit alongside the existing administration block."
+    },
+    {
+      "title": "Receive by railway",
+      "view": "rail",
+      "assetId": "RAIL-01",
+      "copy": "The unloading shed is replaced in this view by inverted-L fall-arrester supports at 12.42 m centres. Their dimensions follow the supplied detail; two rows of 27 interpret its 54 places. The original held shed schedule remains in the facility notes."
+    },
+    {
+      "title": "Store by product",
+      "view": "storage",
+      "assetId": "HSD-02",
+      "copy": "Seven above-ground product tanks provide a scheduled 22,200 m³ of product storage. This excludes fire water and the underground vessels."
+    },
+    {
+      "title": "Load and dispatch",
+      "view": "gantry",
+      "assetId": "TLG-01",
+      "copy": "Four active lanes have illustrative tankers, loading assemblies and an operator walkway. Four further lanes are marked as future reservations. The 12 × 52 m footprint follows the drawing; structural details and heights are illustrative."
+    },
+    {
+      "title": "Support the operation",
+      "view": null,
+      "assetId": "FW-01",
+      "copy": "Two scheduled fire-water tanks provide 7,300 m³ in total. Power, water treatment, maintenance and administration complete the site."
+    },
+    {
+      "title": "Leave room to grow",
+      "view": "overview",
+      "assetId": "FUTURE-S",
+      "copy": "The western areas are reserved for future development. They remain open in this model; no future capacity has been invented."
+    }
+  ],
+  "notes": [
+    {
+      "heading": "Source of truth",
+      "text": "The supplied PDF is a raster drawing. The title block identifies KE-8S04B-PI-PPL-0001, Rev D2, dated 24-08-2026, with the issue reason PESO approval for construction. A separate DWG filename says Rev C1. The DWG was not parsed; the model follows the visible PDF revision. The drawing text does not independently verify approval or compliance status."
+    },
+    {
+      "heading": "What is transcribed",
+      "text": "Tank diameters, shell heights, scheduled stored capacities, roof-type codes, facility names and scheduled footprints come from the PDF. IFRVT denotes an internal floating-roof vertical tank; CRVT denotes a cone-roof vertical tank. Roof details here are illustrative."
+    },
+    {
+      "heading": "What is approximate",
+      "text": "All positions, the boundary, roads, rail lines, landscape and pipe corridors are manually traced. Scale is calibrated against a 24 m HSD tank. This is not a DWG conversion, survey model, BIM model or construction model. Roads, wall heights, roofs, fittings, pumps, vehicles and most building heights are illustrative. Shown pipes are schematic corridors, not design routing."
+    },
+    {
+      "heading": "Drawing discrepancies and holds",
+      "text": "The facility schedule gives the unloading shed as 350 × 10 m; a hold note gives its superstructure as 380 × 15 m. The model uses the scheduled size and discloses the hold. Inspection-platform construction is also on hold. Mast quantities/locations require confirmation during detail engineering. The source fire-water capacity does not equal a full cylinder at the listed shell dimensions; listed stored capacity is preserved rather than recalculated."
+    },
+    {
+      "heading": "Ground and direction",
+      "text": "The drawing states a site reduced level of 19.000 m. This viewer uses flat local grade at Y = 0; it does not model surveyed elevations or drainage. The on-screen compass follows the drawing axis, not true north. Use the full sheet for the original orientation diagram."
+    },
+    {
+      "heading": "Measurements and exports",
+      "text": "Measurements are horizontal ground-point distances in the approximate trace. They do not test statutory clearances. The GLB export contains visible model geometry in metres with source notes in its metadata. Scene images contain an accuracy caption. Neither export establishes engineering accuracy."
+    },
+    {
+      "heading": "Underground display",
+      "text": "Five scheduled 3.3 × 7.5 m horizontal underground vessels are shown when Underground is enabled. They are lifted above local grade in the illustrative cutaway for inspection. The small 900-litre sump and minor bore wells, watch towers, potable-water tanks and masts are not individually reconstructed."
+    },
+    {
+      "heading": "Loading gantry visual reference",
+      "text": "The supplied Fuel and Pol Truck Loading Gantry.png informed common industrial features: steel framing, elevated operator access, handrails, articulated loading arms and flexible hoses. The model is an original procedural design; the reference image is not embedded, reproduced or used as a texture. Four active and four future bays follow the plot-plan schedule. Bay product assignments, loading design, platform height and structural details are illustrative, not engineering specifications."
+    },
+    {
+      "heading": "Publishing and privacy",
+      "text": "This package includes images derived from your drawing. Publishing to a public repository or GitHub Pages makes them publicly accessible. Confirm the intended audience and permission to share the drawing before publication."
+    },
+    {
+      "heading": "Pump-house visual references",
+      "text": "The three supplied pump-house photographs inform only the architectural character: open steel columns, roof trusses, green upper cladding, raised pump bases and curved pipework. The model uses independently created geometry and signs. The source footprint and position of each Panchgram pump house are preserved. The photographed crude-unloading label is not applied to this terminal. Modelled pump counts, duty assignments, drivers and routing are illustrative; capacities and engineered configurations are unknown. Photos are excluded from the GitHub-ready ZIP."
+    },
+    {
+      "heading": "Tank-farm visual reference",
+      "text": "TankStorage-1920x840.jpg informs pale painted shells, restrained seams, roof access railings, external stairs and warm evening lights. Geometry and paint textures are independently generated; the photograph is not embedded and remains excluded from the GitHub ZIP. All nine above-ground tanks preserve scheduled diameters, shell heights, capacities and roof-type tags. Internal floating roof tanks retain closed outer roofs; no exposed floating deck or storage level is inferred from the photograph. Roof slope, foundations, access structures, nozzles, paint and lights are illustrative and are not design or lighting calculations."
+    },
+    {
+      "heading": "Underground vessel visual reference",
+      "text": "UG Vessel.jpg informs the red-coated horizontal shell, rounded heads, raised access necks and concrete inspection pit. Geometry and signs are original; no reference photograph is embedded. Five vessel diameters of 3.3 m, total end-to-end lengths of 7.5 m and scheduled capacities of 50 m³ each are preserved. Open pit cutaways remove the terrain above the selected inspection display. Soil cover, concrete walls, floor clearances, head shapes, supports, manway counts and nozzle details are illustrative. This represents an inspection view, not an as-built installation or excavation design."
+    }
+  ]
+}

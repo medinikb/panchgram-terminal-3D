@@ -1,0 +1,61 @@
+/* Interface palette from POL Terminal Explorer. Scope it to controls and panels:
+   the 3D scene, facility labels, drawing images and plan SVG retain their colours. */
+body{background:#0c1c27}
+:is(.explorer,.workspace-toolbar,.bottom-controls,.app-footer,.detail-dock,dialog,.plan-heading,.plan-tools,.plan-caption,.tour-card,.measurement-banner,.view-rail,.fullscreen-details-toggle){
+  --ink:#d9e5ec;--muted:#91a8b8;--line:#29404e;--paper:#142b39;
+  --green:#e3b466;--lime:#e3b466;--gold:#e3b466;
+  color:var(--ink);color-scheme:dark;
+}
+.explorer,.workspace-toolbar,.bottom-controls,.detail-dock,dialog,.tour-card{background:#102532}
+.app-footer{background:#0c1c27;color:#91a8b8}
+.brand-icon{background:#0c1c27;color:#e3b466;border:1px solid #29404e}
+.explorer h1>span,.explorer .status-dot,.app-footer .status-dot{color:#e3b466;background:#e3b466}
+.explorer h1>span{background:transparent}
+.explorer .stats strong small,.asset-arrow{color:#91a8b8}
+.search{background:#142b39;border-color:#29404e}
+.search input{color:#d9e5ec}
+.search input::placeholder{color:#91a8b8;opacity:1}
+.search kbd{color:#91a8b8;border-color:#3a5361}
+.filter-row select{color:#d9e5ec}
+.filter-row select option{background:#102532;color:#d9e5ec}
+.asset-item:hover,.panel-close:hover,#mobile-close.panel-close:hover{background:#254353}
+.asset-item.selected{background:#304343;border-color:#b3945b;color:#f1cf94}
+.asset-symbol{color:var(--asset-color)}
+.mode-switch{background:#0c1c27;border-color:#29404e}
+.mode-switch button{color:#91a8b8}
+.mode-switch button.active{background:#162d3c;color:#e3b466;box-shadow:inset 0 -2px #e3b466}
+.panel-toggle,.dark-button,.export-options button,.plan-tools button{background:#162d3c;color:#d9e5ec;border:1px solid #29404e}
+.panel-toggle[aria-expanded=true]{background:#304343;border-color:#b3945b;color:#f1cf94}
+.panel-toggle:hover,.dark-button:hover,.export-options button:hover,.plan-tools button:hover{background:#254353;border-color:#607c8c}
+.work-area>.detail-dock .detail-buttons button{background:#142b39;color:#e3b466}
+.work-area>.detail-dock .detail-buttons button:hover{background:#254353}
+.confidence{background:#1d333d;color:#d9c191}
+.detail-buttons button,.export-options strong span{color:#e3b466}
+#viewport:fullscreen .detail-dock{background:#102532;border-color:#29404e;box-shadow:0 12px 40px #00121b44}
+.fullscreen-details-toggle,.measurement-banner{background:#162d3c;color:#e3b466;border-color:#607c8c}
+.view-rail{background:#102532;border-color:#29404e}
+.view-rail button{color:#d9e5ec}
+.view-rail button.active{background:#304343;color:#e3b466}
+.view-rail>span{background:#29404e}
+.plan-heading,.plan-tools,.plan-caption{background:#102532}
+.plan-caption{margin:0;padding-top:12px;padding-bottom:12px}
+.tour-card{border-color:#466273;box-shadow:0 7px 30px #00121b44}
+dialog{border-color:#466273}
+dialog::backdrop{background:#03131dd1}
+.notes-content h3,.notes-content a,.sheet-body a{color:#e3b466}
+.notes-content p,.export-note{color:#b5c8d6}
+.notes-content .notice{background:#1d333d;color:#d9e5ec;border-left-color:#e3b466}
+.notes-content table{color:#d9e5ec}
+.notes-content th{background:#142b39}
+.notes-content td{background:#102532}
+#toast{background:#162d3c;color:#d9e5ec;border:1px solid #466273}
+input[type=checkbox]{accent-color:#e3b466}
+/* Match the reference's single scrolling sidebar rather than a nested list. */
+.explorer{overflow-y:auto;overflow-x:hidden;scrollbar-color:#607c8c #102532;scrollbar-width:auto}
+.explorer>*{flex-shrink:0}
+.explorer .asset-list{flex:none;overflow:visible;margin:0;padding:0}
+.explorer::-webkit-scrollbar{width:12px}
+.explorer::-webkit-scrollbar-track{background:#102532}
+.explorer::-webkit-scrollbar-thumb{background:#607c8c;border:3px solid #102532;border-radius:8px}
+.explorer::-webkit-scrollbar-thumb:hover{background:#91a8b8}
+:is(.explorer,.workspace-toolbar,.bottom-controls,.app-footer,.detail-dock,dialog,.plan-tools,.tour-card,.view-rail) :is(button,a,input,select):focus-visible,.fullscreen-details-toggle:focus-visible{outline:2px solid #e3b466;outline-offset:3px}

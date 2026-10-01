@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explore the Panchgram POL terminal in 3D. Drawing-linked facilities, guided views and transparent model assumptions.">
+  <meta name="theme-color" content="#0c1c27">
+  <title>Panchgram · Terminal Atlas</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="ui-theme.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body class="details-collapsed">
+  <div class="app-body">
+    <aside class="explorer" id="explorer" aria-label="Facility list" hidden>
+      <div class="sidebar-identity"><a class="brand" href="./" aria-label="Panchgram home"><span class="brand-icon">P<span>◦</span></span><div><strong>PANCHGRAM</strong><span>TERMINAL ATLAS</span></div></a><p>POL TERMINAL · CACHAR, ASSAM</p><div class="header-actions"><button id="open-notes" class="quiet">Model notes <span>↗</span></button><button id="export-open" class="dark-button">Export <span>↓</span></button></div></div>
+      <div class="explorer-head"><button id="mobile-close" class="panel-close" aria-label="Collapse facility list" title="Collapse facility list">×</button><div class="eyebrow">YOUR SITE, AT A GLANCE</div><h1>Explore the terminal<span>.</span></h1><p>From the railway to the tank farm.<br>One connected view of the site.</p></div>
+      <div class="stats"><div><strong id="product-capacity">22,200</strong><span>m³ product storage</span></div><div><strong>07 <small>/ 02</small></strong><span>product / fire-water tanks</span></div></div>
+      <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Find a tank or facility" aria-label="Find a tank or facility"><kbd>/</kbd></label>
+      <div class="filter-row"><label class="sr-only" for="category">Facility category</label><select id="category"><option value="all">All facilities</option></select><span id="asset-count"></span></div>
+      <div id="asset-list" class="asset-list" aria-label="Selectable facilities"></div>
+      <p id="no-results" hidden>No facilities found. Try another name.</p>
+      <div class="sidebar-bottom"><span class="status-dot"></span><span>Drawing-led. Assumptions disclosed.</span></div>
+    </aside>
+    <button id="panel-scrim" class="panel-scrim" aria-label="Close side panels" hidden></button>
+    <main class="work-area">
+      <nav class="workspace-toolbar" aria-label="Viewer controls"><div class="toolbar-left"><button id="list-panel-toggle" class="panel-toggle" aria-label="Open facility list" title="Open facility list" aria-expanded="false" aria-controls="explorer"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg><span>Facilities</span></button><div class="mode-switch"><button class="active" data-mode="model" aria-pressed="true">◇ <span>3D model</span></button><button data-mode="split" aria-pressed="false">◫ <span>Compare</span></button><button data-mode="plan" aria-pressed="false">▧ <span>Plot plan</span></button></div></div><div class="toolbar-right"><span class="revision">SOURCE · REV D2</span><button id="reset" class="quiet" aria-label="Reset viewer">↺ <span>Reset</span></button><button id="details-panel-toggle" class="panel-toggle" aria-label="Open facility details" title="Open facility details" aria-expanded="false" aria-controls="details"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16"/></svg><span>Details</span></button></div></nav>
+      <div class="viewer-grid" id="viewer-grid" data-mode="model">
+        <section id="viewport" aria-label="Interactive 3D terminal model">
+          <div class="scene-title"><div class="eyebrow">01 / SPATIAL EXPLORER</div><h2 id="view-title">The complete picture.</h2><p id="view-subtitle">Panchgram POL terminal · conceptual 3D reconstruction</p></div>
+          <div id="canvas-host"></div><div id="labels-layer"></div>
+          <div id="loading" role="status">Preparing your terminal…</div>
+          <div class="view-rail"><button data-view="overview" class="active" aria-label="Site overview" title="Site overview">⌂</button><button data-view="top" aria-label="Top view" title="Top view">⊞</button><button data-view="storage" aria-label="Tank farm view" title="Tank farm view">◉</button><button data-view="rail" aria-label="Railway view" title="Railway view">⇆</button><button data-view="gantry" aria-label="Loading gantry view" title="Loading gantry view">▥</button><span></span><button id="measure" aria-pressed="false" aria-label="Measure approximate ground distance" title="Measure approximate ground distance">↔</button><button id="fullscreen" aria-label="Fullscreen viewer" title="Fullscreen viewer">⛶</button></div>
+          <button id="fullscreen-details-toggle" class="fullscreen-details-toggle" aria-expanded="false" aria-controls="details" hidden>Facility details ▴</button>
+          <div class="orientation"><svg viewBox="0 0 70 70" aria-hidden="true"><circle cx="35" cy="35" r="29" fill="none" stroke="currentColor" opacity=".2"/><g id="compass-arrow"><path d="M35 9 28 37 35 31 42 37Z" fill="currentColor"/><path d="M35 60 28 37 35 43 42 37Z" fill="currentColor" opacity=".25"/></g></svg><b>PLAN AXIS</b><small>True north: see drawing</small></div>
+          <div class="scene-bottom"><span>DRAG TO ORBIT <i>·</i> SCROLL TO ZOOM <i>·</i> RIGHT-DRAG TO PAN</span><span id="scale-label">METRES · APPROXIMATE TRACE</span></div>
+          <div class="measurement-banner" id="measurement-banner" hidden><strong id="measurement-value">Select two points on the ground</strong><span>Approximate · no clearance assessment</span><button id="clear-measure" aria-label="Clear measurement">×</button></div>
+          <div class="tour-card" id="tour-card" hidden><div class="eyebrow" id="tour-progress"></div><h3 id="tour-title"></h3><p id="tour-copy"></p><div><button id="tour-end" class="quiet">End tour</button><button id="tour-next" class="dark-button">Next stop →</button></div></div>
+        </section>
+        <section class="plan-panel" id="plan-panel" aria-label="Source plot plan">
+          <div class="plan-heading"><div><div class="eyebrow">02 / DRAWING REFERENCE</div><h2>Back to the source.</h2></div><button id="plan-full" class="quiet">Full sheet ↗</button></div>
+          <div class="plan-tools"><button id="plan-out" aria-label="Zoom out drawing">−</button><button id="plan-fit">Fit</button><button id="plan-in" aria-label="Zoom in drawing">+</button><span>Drag to pan · tap a marker</span></div>
+          <svg id="plan-svg" viewBox="0 0 2000 1064" aria-label="Plot plan with linked facility markers"><image href="assets/site-plan.webp" width="2000" height="1064"/><g id="plan-markers"></g></svg>
+          <p class="plan-caption">Supplied PDF · KE-8S04B-PI-PPL-0001 · Rev D2 · source geometry shown as received</p>
+        </section>
+      </div>
+      <div class="bottom-controls"><div class="display-toggles"><label><input id="labels" type="checkbox" checked>Labels</label><label><input id="underlay" type="checkbox">Drawing</label><label><input id="future" type="checkbox" checked>Future areas</label><label><input id="cutaway" type="checkbox" checked>Underground</label><label><input id="night" type="checkbox">Dusk</label><label><input id="orbit" type="checkbox">Auto orbit</label></div><button id="tour-start" class="tour-button">▷ Guided tour</button></div>
+      <section class="detail-dock" id="details" aria-label="Facility information" aria-live="polite" hidden></section>
+    </main>
+  </div>
+  <footer class="app-footer"><span><span class="status-dot amber"></span>Concept model · traced positions · not for construction or safety decisions</span><button id="source-footer">Sources & accuracy ↗</button></footer>
+  <dialog id="notes-dialog"><div class="dialog-header"><div><div class="eyebrow">READ BEFORE USING</div><h2>Sources & model accuracy</h2></div><button data-close aria-label="Close model notes">×</button></div><div class="notes-content" id="notes-content"></div></dialog>
+  <dialog id="export-dialog"><div class="dialog-header"><div><div class="eyebrow">TAKE IT WITH YOU</div><h2>Export your view</h2></div><button data-close aria-label="Close export menu">×</button></div><div class="export-options"><button id="export-png"><strong>Scene image <span>PNG ↗</span></strong><small>Current 3D camera, with project and accuracy caption.</small></button><button id="export-glb"><strong>3D model <span>GLB ↗</span></strong><small>Visible geometry for Blender, PowerPoint or other 3D viewers.</small></button><button id="export-csv"><strong>Facility register <span>CSV ↗</span></strong><small>Dimensions, capacity and source confidence for each facility.</small></button></div><p class="export-note">Illustrative model; exports do not establish engineering accuracy. Underground vessels are included only when their display is enabled.</p></dialog>
+  <dialog id="sheet-dialog"><div class="dialog-header"><h2>Original drawing · Rev D2</h2><button data-close aria-label="Close full drawing">×</button></div><div class="sheet-body"><a href="assets/overall-plan.webp" target="_blank" rel="noopener">Open full-resolution sheet ↗</a><img src="assets/overall-plan.webp" alt="Supplied Panchgram overall plot plan including facility and tank schedules"></div></dialog>
+  <div id="toast" role="status" hidden></div>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
